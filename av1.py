@@ -78,7 +78,7 @@ while True:
     elif opcao == "2":
         listar_produtos()
     elif opcao == "3":
-        buscar_produto()
+        buscar_produto() 
     elif opcao == "4":
         atualizar_estoque()
     elif opcao == "5":
