@@ -60,6 +60,8 @@ def remover_produto():
 def total_produtos():
     print(f"Total de produtos cadastrados: {len(estoque)}")
 
+def produtos_defeituosos():
+    print(f"Total de produtos com defeito: {len(estoque)}")
 
 while True:
     print("CONTROLE DE ESTOQUE")
@@ -69,7 +71,8 @@ while True:
     print("4 - Atualizar estoque")
     print("5 - Remover produto")
     print("6 - Total de produtos cadastrados")
-    print("7 - Sair")
+    print("7 - Total de produtos defeituosos")
+    print("8 - Sair")
 
     opcao = input("Escolha uma opção: ")
 
@@ -86,6 +89,8 @@ while True:
     elif opcao == "6":
         total_produtos()
     elif opcao == "7":
+        produtos_defeituosos()
+    elif opcao == "8":
         print("Programa encerrado")
         break
 
